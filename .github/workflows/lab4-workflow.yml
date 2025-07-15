@@ -3,6 +3,7 @@ name: Publish Package to GitHub NPM Registry
 on: 
   release: 
     types: published 
+  workflow_dispatch:
     
 jobs:
     npm-package:
